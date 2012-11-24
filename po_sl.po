@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: ENIGMA 2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-16 18:48+0100\n"
-"PO-Revision-Date: 2012-11-22 21:10+0100\n"
-"Last-Translator: \n"
-"Language-Team: OldSkul from www.linux-sprejemniki.info\n"
+"PO-Revision-Date: 2012-11-24 20:16+0100\n"
+"Last-Translator: Taykun345 <podpora@linux-sprejemniki.info>\n"
+"Language-Team: www.linux-sprejemniki.info\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=2 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
 "X-Generator: Poedit 1.5.4\n"
 
 #
@@ -175,7 +175,8 @@ msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ura"
 msgstr[1] "%d uri"
-msgstr[2] "%d ur"
+msgstr[2] "%d ure"
+msgstr[3] "%d ure"
 
 #
 #, python-format
@@ -193,7 +194,8 @@ msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minuta"
 msgstr[1] "%d minuti"
-msgstr[2] "%d minut"
+msgstr[2] "%d minute"
+msgstr[3] "%d minut"
 
 #
 #, python-format
@@ -206,7 +208,8 @@ msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d sekunda"
 msgstr[1] "%d sekundi"
-msgstr[2] "%d sekund"
+msgstr[2] "%d sekunde"
+msgstr[3] "%d sekund"
 
 #
 #, python-format
@@ -219,7 +222,8 @@ msgid "%d wireless network found!"
 msgid_plural "%d wireless networks found!"
 msgstr[0] "Najdeno je %d brezzično omrežje!"
 msgstr[1] "Najdena sta %d brezzična omrežja!"
-msgstr[2] "Najdenih je %d brezzičnih omrežij!"
+msgstr[2] "Najdena so %d brezzična omrežja!"
+msgstr[3] "Najdenih je %d brezzičnih omrežij!"
 
 msgid "%d-%b-%Y %-H:%M"
 msgstr "%a %e/%m  %-H:%M"
@@ -255,7 +259,8 @@ msgid "%s updated package available"
 msgid_plural "%s updated packages available"
 msgstr[0] "%s nadgradnja na voljo."
 msgstr[1] "%s nadgradnji na voljo."
-msgstr[2] "%s nadgradenj na voljo."
+msgstr[2] "%s nadgradenje na voljo."
+msgstr[3] "%s nadgradenj na voljo."
 
 #, python-format
 msgid "%s/%s: %s"
@@ -1465,7 +1470,7 @@ msgid "Configure the brightness level of the front panel display."
 msgstr "Določitev ravni svetlosti sprednjega zaslona sprejemnika."
 
 msgid "Configure the color of the teletext subtitles."
-msgstr "Določitev barve teletexr podnapisov."
+msgstr "Določitev barve teletekst podnapisov."
 
 msgid "Configure the contrast level of the front panel display."
 msgstr "Določitev kontrasta sprednjega zaslona sprejemnika."
@@ -2071,7 +2076,7 @@ msgstr "Dodatne informacije:"
 
 #
 msgid "Detected HDD:"
-msgstr "Zaznani pogon:"
+msgstr "Zaznani pogoni:"
 
 #
 msgid "Detected NIMs:"
@@ -2185,7 +2190,7 @@ msgid "Display and userinterface"
 msgstr ""
 
 msgid "Display message before playing next movie"
-msgstr ""
+msgstr "Prikaz obvestila pred začetkom predvajanja video datoteke"
 
 #
 msgid "Display setup"
@@ -2484,7 +2489,7 @@ msgid "Enable ViaSat EPG"
 msgstr "ViaSat EPG sistem"
 
 msgid "Enable bouquet selection in multi-EPG"
-msgstr ""
+msgstr "Vklop izbire seznamov priljubljenih kanalov v Multi-EPG načinu"
 
 #
 msgid "Enable freesat EPG"
@@ -3280,7 +3285,7 @@ msgid "Internal hdd only"
 msgstr "Samo notranji HDD"
 
 msgid "Interval between keys when repeating:"
-msgstr ""
+msgstr "Interval med tipkami v primeru ponavljanja:"
 
 #
 #, python-format
@@ -3296,7 +3301,7 @@ msgid "Inversion"
 msgstr "Inverzija"
 
 msgid "Invert"
-msgstr ""
+msgstr "Inverzija"
 
 #
 msgid "Ipkg"
@@ -4126,7 +4131,7 @@ msgid "Norwegian"
 msgstr "Norveško"
 
 msgid "Not associated"
-msgstr ""
+msgstr "Ni povezano"
 
 #
 #, python-format
@@ -6381,7 +6386,7 @@ msgstr "Zaznamki"
 
 #
 msgid "Teletext subtitle color"
-msgstr "Barva teletekst (TXT) podnapisov"
+msgstr "Barva teletekst podnapisov"
 
 #
 msgid "Temperature and fan control"
@@ -6492,6 +6497,7 @@ msgstr "Najdene datoteke:"
 
 msgid "The md5sum validation failed, the file may be corrupted!"
 msgstr ""
+"md5sum preverba ni uspela. Obstaja verjetnost, da je datoteka okvarjena."
 
 #
 msgid ""
@@ -6873,7 +6879,7 @@ msgid "Toneburst A/B"
 msgstr "Toneburst A/B"
 
 msgid "Top and bottom"
-msgstr ""
+msgstr "Zgoraj in spodaj"
 
 #
 msgid "Track"
@@ -7070,7 +7076,8 @@ msgid "Update completed, %d package was installed."
 msgid_plural "Update completed, %d packages were installed."
 msgstr[0] "Posodobitev je zaključena. Posodobljen je bil samo %d paket."
 msgstr[1] "Posodobitev je zaključena. Posodobljen sta bila samo %d paketa."
-msgstr[2] "Posodobitev je zaključena. Posodobljenih je bilo %d paketov."
+msgstr[2] "Posodobitev je zaključena. Posodobljeni so bili %d paketi."
+msgstr[3] "Posodobitev je zaključena. Posodobljenih je bilo %d paketov."
 
 msgid "Update completed. Do you want to reboot your receiver?"
 msgstr "Nadgradnja je končana. Želite izvesti ponovni zagon sprejemnika?"
@@ -8086,7 +8093,7 @@ msgid ""
 "Your internet connection is working.\n"
 "\n"
 msgstr ""
-"Vaš sprejemnik je pripravljen za uporabo.\n"
+"Vaš sprejemnik je sedaj pripravljen za uporabo.\n"
 "\n"
 "Vaša internetna povezava sedaj deluje.\n"
 "\n"
@@ -8098,20 +8105,20 @@ msgid ""
 "\n"
 "Please press OK to continue."
 msgstr ""
-"Sprejemnik je pripravljen na uporabo.\n"
+"Sprejemnik je sedaj pripravljen za uporabo.\n"
 "\n"
 "Internetna povezava sedaj deluje.\n"
 "\n"
 "Za nadaljevanje pritisnite tipko OK."
 
 msgid "Your receiver is rebooting"
-msgstr "Sprejemnik se bo ponovno zagnal..."
+msgstr "Poteka ponovni zagon vašega sprejemnika ..."
 
 msgid "Your receiver is shutting down"
-msgstr "Vaš sprejemnik bo čez nekaj trenutkov prešel v globoko spanje!"
+msgstr "Poteka izklapljanje vašega sprejemnika ..."
 
 msgid "Your receiver is shutting down. Please stand by..."
-msgstr "Sprejemnik prehaja v stanje globokega spanja. Prosim počakajte ..."
+msgstr "Sprejemnik prehaja v stanje globokega spanja... Prosim počakajte!"
 
 #
 msgid ""
@@ -8119,7 +8126,7 @@ msgid ""
 "assistance before rebooting your receiver."
 msgstr ""
 "Vaš sprejemnik je pripravljen za uporabo. Pred ponovnim zagonom sprejemnika "
-"preverite uporabniška navodila."
+"preverite uporabniška navodila!"
 
 msgid "Your receiver will restart after pressing OK on your remote control."
 msgstr "Sprejemnik se bo po pritisku tipke OK ponovno zagnal."
@@ -8312,7 +8319,7 @@ msgid "black"
 msgstr "črno"
 
 msgid "black & white"
-msgstr " črno/belo"
+msgstr "črno/belo"
 
 #
 msgid "blacklist"
@@ -8895,7 +8902,7 @@ msgid "play from previous mark or playlist entry"
 msgstr "predvajanje od prejšne oznake ali vnosa v seznamu"
 
 msgid "play in mainwindow"
-msgstr ""
+msgstr "predvajj v glavnem oknu"
 
 #
 msgid "please press OK when ready"
